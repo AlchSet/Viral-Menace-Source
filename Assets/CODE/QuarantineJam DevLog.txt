@@ -1,0 +1,58 @@
+QUARANTINE JAM
+
+---------------------------------------
+DAY 2
+---------------------------------------
+- Made Graphics for the barrier.
+- Barrier no longer has a timer.
+- Virus plays visible particles when it dies.
+- Animated, UV and Textured Hazmat guy.
+- Modelled a flamethrower like object for the spray.
+- Added more range to the spray.
+- Visor energy recharges when at reload place.
+- Added star graphics for virus death particles.
+- Created Animator Controller & attached it to the player model and script, player can walk now.
+- Made the town slightly smaller.
+- Added Cobblestone texture for road.
+- Added Brick Texture to walls.
+- Added Spray sound to the spray.
+- Added Cure sound to the Virus.
+- NPC explode on death, plays particles & sound.
+- Explosions briefly shake the camera.
+- Added Billboard script to the NPC biohazard sprite.
+- Copied Hazmat guy model for civilians, also has coughing animation.
+- Created Hairstyles, hat and 4 different textures for npc's.
+- Npc's have variety now.
+- NPC can cough randomly with the chance increasing the less life it has.
+- NPC has cough sound.
+- Added sound when applying barriers.
+- Modelled Hospital.
+- Finished Graphics for City.
+- Added Silhouette shader to Barrier Highlight.
+- Added Reload FX.
+- Added Ambience sounds.
+- Tweeked the spray, less bounce more accurate.
+- Added UI icons for Visor & Spray.
+- If an NPC takes too long to get somewhere he should change target.
+- Added sound when removing the tape.
+- Made virus more vulnerable to spray when without a host.
+- GameOver & Victory screens trigger when game is won or lost.
+- Victory shows casualities and has a different message depending on survivors.
+- Victory has various FX such as typing sounds and flashy text when all have survived.
+- Added Tutorial, it is possible to skip it, wont appear after reloading level.
+- Added sound when the player switches item.
+---------------------------------------
+DAY 1
+---------------------------------------
+- Virus can infect npc's.
+- Npc's have a hasVirus flag.
+- Npc can be cured from the virus with the spray.
+- Npc's can pick a random point to partol to.
+- Npc's disappear when life reaches 0.
+- Thinking "Viral Menace" as its title.
+- Total of 12 NPC's lurk the town. Some of them walk faster than others.
+- Player can place up to 4 barriers, you see a highlight before placing one.
+- Wrote the GameManager script that checks for status of all NPC and updates the UI.
+- Npc have a delegate to update GameManager when Cured or Infected.
+- Player can now remove barriers to place elsewhere.
+- Modelled Hazmat Guy for the player character.
